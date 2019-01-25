@@ -1,0 +1,29 @@
+{
+  "name": "xfn-api",
+  "version": "1.0.0",
+  "description": "扫码点餐系统数据API系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wangzhibing123/XFN-API.git"
+  },
+  "author": "王治兵",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Wangzhibing123/XFN-API/issues"
+  },
+  "homepage": "https://github.com/Wangzhibing123/XFN-API#readme",
+  "keywords": [
+    "餐厅扫码点菜数据API子系统"
+  ],
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
